@@ -1,7 +1,7 @@
 package main;
 public class Prg {
     public static void main(String[] args) {
-        int i = fv();
+        int i = Prg.fv();
     }
 
     private static int fv() {
