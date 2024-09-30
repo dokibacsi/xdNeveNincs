@@ -1,12 +1,19 @@
 package main;
+
 public class Prg {
+
     public static void main(String[] args) {
-        int i = Prg.fv();
+        Prg prg = new Prg();
+        int i = prg.fv();
     }
 
-    private static int fv() {
-        System.out.println("Statik függvény");
-        return -1;
+    private int fv() {
+        System.out.println("Nem static fgv");
+        return 1;
     }
     
+    private void elj(){
+        
+    }
+
 }
