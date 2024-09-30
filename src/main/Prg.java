@@ -11,5 +11,9 @@ public class Prg {
         System.out.println("Nem static fgv");
         return 1;
     }
+    
+    private void elj(){
+        
+    }
 
 }
